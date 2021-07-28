@@ -1,5 +1,5 @@
 {
-  "name": "marko-place",
+  "name": "next-js-boilerplate-ts",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,17 +11,19 @@
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.15.5",
     "@reduxjs/toolkit": "^1.6.1",
-    "autoprefixer": "^10.3.1",
     "next": "11.0.1",
-    "postcss": "^8.3.6",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-redux": "^7.2.4",
-    "redux-persist": "^6.0.0",
-    "tailwindcss": "^2.2.7"
+    "redux-persist": "^6.0.0"
   },
   "devDependencies": {
+    "@types/react": "17.0.15",
+    "autoprefixer": "^9.8.6",
     "eslint": "7.31.0",
-    "eslint-config-next": "11.0.1"
+    "eslint-config-next": "11.0.1",
+    "postcss": "^7.0.36",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.7",
+    "typescript": "4.3.5"
   }
 }
